@@ -118,8 +118,14 @@ page with just a placeholder avatar. Marty and Doc should not be there.
 You're going to add both the doc-brown branch and the marty-mcfly branch to the master branch using merge. Merge the `doc-brown` branch first by running `git merge doc-brown -m "merge doc brown"` in the terminal.
 >>>>>>> doc-brown
 
+<<<<<<< HEAD
 When you merge `doc-brown` into your `master` branch, your terminal should print
 a readout that looks something like this:
+=======
+You're going to add both the doc-brown branch and the marty-mcfly branch to the master branch using merge. Merge the `doc-brown` branch first by running `git merge doc-brown -m "merge doc brown"` in the terminal.
+
+When you merge `doc-brown` into your `master` branch, your terminal should print a readout that looks something like this:
+>>>>>>> marty-mcfly
 
 ```bash
 Updating 7d220f6..bb73c64
