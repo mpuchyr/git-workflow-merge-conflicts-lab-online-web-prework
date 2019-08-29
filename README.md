@@ -123,6 +123,7 @@ the master branch using `git merge`. Merge the `doc-brown` branch first by runni
 git merge doc-brown -m "merge doc brown"
 ```
 
+
 Here, we're saying: "Integrate the differences between `master` and `doc-brown`
 _back_ into `master`."
 
